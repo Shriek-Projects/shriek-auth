@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  shriek.auth.web:
+    image: shriek.auth.web
+    build:
+      context: ../
+      dockerfile: src/Shriek.Auth.Web/Dockerfile
