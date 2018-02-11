@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Domain", "src\Shriek.Auth.Domain\Shriek.Auth.Domain.csproj", "{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DBB8C324-D6D1-46FF-A1D2-29076FEE8294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Contract", "src\Shriek.Auth.Contract\Shriek.Auth.Contract.csproj", "{C36D136C-3A1B-47D3-9606-0C588500CC83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Services", "src\Shriek.Auth.Services\Shriek.Auth.Services.csproj", "{FD97A7B4-7635-468E-9E3B-C960F43A4B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.DomainRepository", "src\Shriek.Auth.DomainRepository\Shriek.Auth.DomainRepository.csproj", "{C960B64D-01D2-4BE5-BCED-FAF20C8D772E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.CommandHandlers", "src\Shriek.Auth.CommandHandlers\Shriek.Auth.CommandHandlers.csproj", "{E29D335E-2EEE-47A9-BDD8-660FF9DAA740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.EventHandlers", "src\Shriek.Auth.EventHandlers\Shriek.Auth.EventHandlers.csproj", "{9E1B61A7-806C-40BF-9104-41C8A8ED369F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Commands", "src\Shriek.Auth.Commands\Shriek.Auth.Commands.csproj", "{E494A590-36F8-4852-A114-E76D05340E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Query", "src\Shriek.Auth.Query\Shriek.Auth.Query.csproj", "{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.QueryRepository", "src\Shriek.Auth.QueryRepository\Shriek.Auth.QueryRepository.csproj", "{1718182E-1759-442A-BED7-D7545065E7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shriek.Auth.Web", "src\Shriek.Auth.Web\Shriek.Auth.Web.csproj", "{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD10E135-976A-480A-8046-06099D8C50EB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker\docker-compose.dcproj", "{6B225461-A4AA-40A8-A883-6656CA62E82F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36D136C-3A1B-47D3-9606-0C588500CC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36D136C-3A1B-47D3-9606-0C588500CC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36D136C-3A1B-47D3-9606-0C588500CC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36D136C-3A1B-47D3-9606-0C588500CC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD97A7B4-7635-468E-9E3B-C960F43A4B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD97A7B4-7635-468E-9E3B-C960F43A4B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD97A7B4-7635-468E-9E3B-C960F43A4B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD97A7B4-7635-468E-9E3B-C960F43A4B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C960B64D-01D2-4BE5-BCED-FAF20C8D772E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C960B64D-01D2-4BE5-BCED-FAF20C8D772E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C960B64D-01D2-4BE5-BCED-FAF20C8D772E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C960B64D-01D2-4BE5-BCED-FAF20C8D772E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29D335E-2EEE-47A9-BDD8-660FF9DAA740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29D335E-2EEE-47A9-BDD8-660FF9DAA740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29D335E-2EEE-47A9-BDD8-660FF9DAA740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29D335E-2EEE-47A9-BDD8-660FF9DAA740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1B61A7-806C-40BF-9104-41C8A8ED369F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1B61A7-806C-40BF-9104-41C8A8ED369F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1B61A7-806C-40BF-9104-41C8A8ED369F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1B61A7-806C-40BF-9104-41C8A8ED369F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E494A590-36F8-4852-A114-E76D05340E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E494A590-36F8-4852-A114-E76D05340E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E494A590-36F8-4852-A114-E76D05340E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E494A590-36F8-4852-A114-E76D05340E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1718182E-1759-442A-BED7-D7545065E7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1718182E-1759-442A-BED7-D7545065E7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1718182E-1759-442A-BED7-D7545065E7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1718182E-1759-442A-BED7-D7545065E7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B225461-A4AA-40A8-A883-6656CA62E82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B225461-A4AA-40A8-A883-6656CA62E82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B225461-A4AA-40A8-A883-6656CA62E82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B225461-A4AA-40A8-A883-6656CA62E82F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B115641-F2BA-49D9-9E23-1D3DDF5EE3C6} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{C36D136C-3A1B-47D3-9606-0C588500CC83} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{FD97A7B4-7635-468E-9E3B-C960F43A4B8A} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{C960B64D-01D2-4BE5-BCED-FAF20C8D772E} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{E29D335E-2EEE-47A9-BDD8-660FF9DAA740} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{9E1B61A7-806C-40BF-9104-41C8A8ED369F} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{E494A590-36F8-4852-A114-E76D05340E60} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{BDFDD25F-5534-47AE-A1DC-4880AB0A80E6} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{1718182E-1759-442A-BED7-D7545065E7D9} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+		{7395FB05-ABEE-4CD5-8970-4DED9CC5CD19} = {DBB8C324-D6D1-46FF-A1D2-29076FEE8294}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A43C18B7-752D-4227-9B5A-B4B6A038BCC1}
+	EndGlobalSection
+EndGlobal
